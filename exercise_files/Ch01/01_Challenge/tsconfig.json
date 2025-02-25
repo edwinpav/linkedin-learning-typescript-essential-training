@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "esnext", // version of JS to target
+        "outDir": "build",
+        "moduleResolution": "node"
+    },
+    "include": [
+        "**.ts"
+    ] // input file paths
+}

@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
         "outDir": "build",
-        "target": "esnext",
-        "noEmit": true
+        "target": "esnext", // emit code compatible with latest JS version
+        "noEmit": true, // don't write anything to disk (JS code)
+        "moduleResolution": "node"
     },
-    "include": ["src/**/*"]
+    "include": ["src/**/*"] // location of which files ts should compile (tsc command)
 }

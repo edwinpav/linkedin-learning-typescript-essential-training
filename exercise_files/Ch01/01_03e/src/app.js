@@ -1,3 +1,4 @@
+// adding types to JS code using JS-docs syntax
 /**
  * 
  * @param {number} contactId 

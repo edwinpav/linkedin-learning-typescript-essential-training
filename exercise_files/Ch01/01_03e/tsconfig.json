@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "allowJs": true,
-        "checkJs": true,
+        "checkJs": true, // TS checks JS for errors (like type errors)
         "outDir": "build",
         "target": "esnext",
         "noEmit": true

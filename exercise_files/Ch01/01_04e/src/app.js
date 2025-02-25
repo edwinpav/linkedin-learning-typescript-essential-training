@@ -4,6 +4,8 @@
  * @returns 
  */
 async function getContact(contactId) {
+  // TS doesn't complain about `$` bc we downloaded
+  // the open source jquery type definition
   const resp = await $.ajax({
     url: `/contacts/${contactId}`,
     dataType: "json",
