@@ -16,7 +16,7 @@ let primaryContact: Contact = {
 }
 
 type ContactFields = keyof Contact
-const field : ContactFields = "status"
+const field : ContactFields = "status" // can only be “status”, “id”, “name”, or “birthDate"
 
 function getValue <T, U extends keyof T>(source:T, propertyName: U){
     return source[propertyName]

@@ -7,7 +7,7 @@ type ContactBirthDate = Date | number | string
 interface Contact  {
     id: number;
     name: ContactName;
-    birthDate?: ContactBirthDate;
+    birthDate?: ContactBirthDate; // allows this to be a Date value, number value, or string value
     status?: ContactStatus;
 }
 
